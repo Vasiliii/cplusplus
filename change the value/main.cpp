@@ -33,11 +33,8 @@ int main()
 // func is a function to change the variables
 void func(int *pA, int *pB)
 {
-    int x,y;
-    x = *pA;
-    y = *pB;
-
+    int x = *pA;
+    *pA = *pB;
     *pB = x;
-    *pA = y;
 
 }
