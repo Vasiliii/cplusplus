@@ -17,8 +17,7 @@ void chagerValues(T &a, T &b)
 
 int main()
 {
-    string a;
-    string b;
+    string a, b;
 
     cout << "Enter the first argument: ";
     cin >> a;
