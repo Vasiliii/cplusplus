@@ -1,0 +1,9 @@
+Introduction to classes 
+It's just a simple simple program to study classes, their objects and members (methods)
+
+I created a simple Human class that stores the parameters of people (Name, age and weight) 
+and added a member function (class method) to this class output of these parameters.
+I also created two objects firstHuman and secondHuman. In the main function, 
+I defined the parameters of each object and displayed them in the console.
+
+You can see how works the program, just copy my main.cpp file into your project.
