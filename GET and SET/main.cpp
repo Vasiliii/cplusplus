@@ -33,11 +33,46 @@ public:
 	}
 };
 
+class CoffeeGrinder
+{
+private:
+	bool VoltageCheck(int U)
+	{
+		int maxU = 240, minU = 210;
+		if (U >= maxU && U <= minU)
+		{
+			return false;
+		}
+		if (U < maxU && U > minU)
+		{
+			cout << "Sacces star" << endl;
+			return true;
+		}
+
+
+	}
+
+public:
+	void Statr(int U)
+	{
+		if (VoltageCheck(U) == true) 
+		{
+			cout << "Vjuhhhh" << endl;
+		}
+		else
+		{
+			cout << "Error start" << endl;
+			cout << "Sorry" << endl;
+		}
+	}
+};
+
 int main()
 {
-	Point a;
-	a.SetX(5);
-	a.SetY(11);
-	a.Print();
-	
+	int U;
+	cout << "Specify the mains voltage: ";
+	cin >> U;
+	CoffeeGrinder a;
+	a.Statr(U);
+
 }
