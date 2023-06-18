@@ -1,0 +1,1 @@
+D:\учеба\c++\ObjPtr\x64\Debug\ObjPtr.exe
